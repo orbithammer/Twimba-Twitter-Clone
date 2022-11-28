@@ -9,7 +9,7 @@ let tweetHistory = [undefined]
 let isFocused = false
 let tweetsData = []
 
-// console.log(`tweetsDatabase: `, tweetsDatabase)
+console.log(`tweetsDatabase: `, tweetsDatabase)
 // console.log(`gottenSavedTweetsData: `, gottenSavedTweetsData)
 
 if(gottenSavedTweetsData) {
