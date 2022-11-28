@@ -9,7 +9,7 @@ let tweetHistory = [undefined]
 let isFocused = false
 let tweetsData = []
 
-console.log(`tweetsDatabase: `, tweetsDatabase)
+// console.log(`tweetsDatabase: `, tweetsDatabase)
 // console.log(`gottenSavedTweetsData: `, gottenSavedTweetsData)
 
 if(gottenSavedTweetsData) {
@@ -172,7 +172,7 @@ function getFeedHtml(topTweetUuid){
         focusReturn.innerHTML = `<i class="fa-solid fa-arrow-left black" id="back-arrow"></i>`
         replyTweet = `
         <div class="reply-container">
-            <img src="images/scrimbalogo.png" class="profile-pic">
+            <img src="./images/scrimbalogo.png" class="profile-pic">
             <textarea placeholder="Tweet your reply" class="reply-input" id="reply-input-${topTweetUuid}"></textarea>
             <button class="reply-btn" data-reply="${topTweetUuid}">Reply</button>
         </div>
@@ -206,7 +206,7 @@ function getFeedHtml(topTweetUuid){
         } else {
             tweetInputWrapper.innerHTML = `
             <div class="tweet-input-area">
-                <img src="images/scrimbalogo.png" class="profile-pic">
+                <img src="./images/scrimbalogo.png" class="profile-pic">
                 <textarea placeholder="What's happening?" id="tweet-input"></textarea>
             </div>
             <button id="tweet-btn">Tweet</button>
